@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">VOICEPLAY</h1>
+    <p>Enemy - Imagine Dragons (Arcane League Of Legends), <a href="https://www.youtube.com/results?search_query=voiceplay" target="_blank">VoicePlay</a> featuring <a href="https://www.youtube.com/results?search_query=alexa" target="_blank">AleXa</a>.</p>
+</div>
+
+<center><iframe width="700" height="394" src="https://www.youtube.com/embed/yR7caU0R__E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<center>
+    <div id="myContainer">
+        <img id="myAnimation" src="~/img/spcshp.png"></img>
+    </div>
+    <button class="btn-primary" onclick="myMove()">Click Me</button>
+</center>
